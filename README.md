@@ -20,7 +20,6 @@ Goal: State the ultimate aim of the project, such as identifying specific phenom
 This project consists of 3 Jupyter Notebooks that serve different purposes:
 
 1. **Prep_Mod_MergeFile.ipynb**: 
-
 This notebook focuses on preparing, modifying, and merging the used data sets to one compound dataset that is used for the EDA and machine learning approaches in notebooks 2 and 3.
 The dataframe preparation includes a cKD-driven (scipy.spatial) cluster analysis to group the earthquakes time series by their recorded coordinates (latitude / longitude) and depth with respect to the nearest population center. This includes calculating the distance between the nearest town and respective earthquake under consideration of lateral distance and depth of the event.    
 
