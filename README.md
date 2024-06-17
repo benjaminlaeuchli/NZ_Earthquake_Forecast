@@ -1,9 +1,10 @@
 ![pulsar_star_wp](https://gssc.esa.int/navipedia/images/a/a9/Example.jpg)
 
-# Prediction on the ten most earth quake prone cities in New Zealand
+# Identification of the ten most earth quake prone cities in New Zealand and prediction on the timing of the next major earthquake events.  
 
 ### Project Overview
-Objective: Describe the main goal of the project, which is to use machine learning techniques to predict a specific outcome based on the given dataset.
+Objective: This project aims to analyse a 24 year spanning earthquake dataset (2020-01-01 to 2024-06-16) obtained from geonet.org.nz/
+and create a model to identify the 10 most earthquake towns / cities in New Zealand and predict the timing of the next earthquake eventy for these population centers. 
 
 Context: Explain the challenges or complexities involved in the domain or field of study. Mention any common obstacles or issues that make the task difficult.
 
