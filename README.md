@@ -13,7 +13,7 @@ Significance: Highlight the importance of achieving accurate predictions and how
 Goal: State the ultimate aim of the project, such as identifying specific phenomena, improving detection accuracy, or prioritizing certain areas for more detailed investigation.
 ## Team Members
 
-- Team Member 1: [GitHub](https://github.com/benjaminlaeuchli)
+- Dr. Benjamin Läuchli: [GitHub](https://github.com/benjaminlaeuchli)
 
 ## Jupyter Notebooks
 
