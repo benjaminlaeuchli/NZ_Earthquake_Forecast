@@ -1,6 +1,6 @@
 ![pulsar_star_wp](https://gssc.esa.int/navipedia/images/a/a9/Example.jpg)
 
-# Identification of the ten most earth quake prone cities in New Zealand and prediction on the timing of the next major earthquake events.  
+# The ten most earth quakeprone cities in New Zealand and earthquake event forecast.  
 
 ### Project Overview
 Objective: This project aims to analyse a 24 year spanning earthquake dataset (2020-01-01 to 2024-06-16) obtained from geonet.org.nz/
