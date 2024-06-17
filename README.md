@@ -1,6 +1,6 @@
 ![pulsar_star_wp](https://gssc.esa.int/navipedia/images/a/a9/Example.jpg)
 
-# Project Titel
+# Prediction on the ten most earth quake prone cities in New Zealand
 
 ### Project Overview
 Objective: Describe the main goal of the project, which is to use machine learning techniques to predict a specific outcome based on the given dataset.
@@ -12,24 +12,26 @@ Significance: Highlight the importance of achieving accurate predictions and how
 Goal: State the ultimate aim of the project, such as identifying specific phenomena, improving detection accuracy, or prioritizing certain areas for more detailed investigation.
 ## Team Members
 
-- Team Member 1: [GitHub](https://github.com/xxx)
-- Team Member 2: [GitHub](https://github.com/xxx)
-- Team Member 3: [GitHub](https://github.com/xxx)
+- Team Member 1: [GitHub](https://github.com/benjaminlaeuchli)
+
 
 ## Jupyter Notebooks
 
-This project consists of xxx Jupyter Notebooks that serve different purposes:
+This project consists of 3 Jupyter Notebooks that serve different purposes:
 
-1. **Notebook1.ipynb**: 
+1. **Prep_Mod_MergeFile.ipynb**: 
 
-For example: This notebook focuses on Exploratory Data Analysis (EDA) and training various models for pulsar star classification. It includes data preprocessing, feature engineering, model training, and evaluation... etc. 
+This notebook focuses on preparing, modifying, and merging the used data sets to one compound dataset that is used for the EDA and machine learning approaches in notebooks 2 and 3.
+The dataframe preparation includes a cKD-driven (scipy.spatial) cluster analysis to group the earthquakes time series by their recorded coordinates (latitude / longitude) and depth with respect to the nearest population center. This includes calculating the distance between the nearest town and respective earthquake under consideration of lateral distance and depth of the event.    
 
-2. **Notebook2.ipynb**: 
+2. **EDA_Data_Visualisation.ipynb**: 
+This notebook focuses on Exploratory Data Analysis (EDA) and visualisation of key aspects of the compiled dataset. It includes (i) Investigating number of NZ MMI type occurrences, (ii) Count number of quakes (NZ MMI grouped) as line plots, (iii) Exploring Earthquake Magnitude vs Depth, (iv) Grouping the data by year and magnitude type and count the number of Earthquakes, (v) a interactive scatter plot of spatial-temporally clustered earthquake data with dropdown menu function, (vi) an interactive tempo-spatial graph with earthquake frequency per cluster plotted against measured magnitudes controlled by a dropdown menu. 
 
+
+4. **Quake_Predict.ipynb**: 
+ throughout the studied time frame
+data preprocessing, feature engineering, model training, and evaluation... etc. 
 ...
-
-3. **Notebook3.ipynb**: 
-
 ...
 
 ## Installation and Setup
