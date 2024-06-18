@@ -3,14 +3,14 @@
 # New Zealand's ten most earthquake prone cities and their earthquake event forecast.  
 
 ### Project Overview
-Objective: This project aims to analyse a 24 year spanning earthquake dataset (2020-01-01 to 2024-06-16) obtained from geonet.org.nz/
-and create a model to identify the 10 most earthquake towns / cities in New Zealand and predict the timing of the next earthquake eventy for these population centers. 
+Objective: This project aims to analyse a 24 year spanning historical earthquake dataset (2020-01-01 to 2024-06-16) obtained from geonet.org.nz/ and create a model to identify the 10 most earthquake towns / cities in New Zealand and predict the timing of the next earthquake eventy for these population centers. 
 
-Context: Explain the challenges or complexities involved in the domain or field of study. Mention any common obstacles or issues that make the task difficult.
+Context: Earthquake prediction is a complex and challenging task due to the inherent unpredictability of seismic activity. The dataset involves a vast range of magnitudes, depths, and locations, making it difficult to identify patterns and anomalies. Additionally, the impact of aftershocks and varying local geological conditions further complicate the analysis. The lack of a universally accepted method for clustering and identifying related seismic events adds another layer of difficulty.
 
-Significance: Highlight the importance of achieving accurate predictions and how it benefits further research, analysis, or practical applications in the field.
+Significance: Accurate earthquake predictions, especially in the context of New Zealand, are crucial for disaster preparedness and mitigation. By identifying the most earthquake-prone areas and predicting potential future events, authorities can improve emergency response plans, allocate resources more effectively, and enhance public safety. This project also contributes to the broader field of seismology by providing insights into seismic patterns and potentially improving existing prediction models.
 
-Goal: State the ultimate aim of the project, such as identifying specific phenomena, improving detection accuracy, or prioritizing certain areas for more detailed investigation.
+Goal: The ultimate aim of the project is to enhance our understanding of seismic activity in New Zealand, identify the towns and cities most affected by earthquakes, and predict the timing of future major events. This information will help prioritize areas for more detailed investigation and improve detection accuracy, ultimately contributing to better disaster management and public safety strategies.
+
 ## Team Members
 
 - Dr. Benjamin Läuchli: [GitHub](https://github.com/benjaminlaeuchli)
@@ -38,7 +38,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/daistmarco/PredictingPulsarStar.git
+git clone https://github.com/daistmarco/....git
 ```
 2. Navigate to the project directory:
 ```
@@ -59,18 +59,28 @@ Once the setup is complete, you can use the provided functions, such as `ann_pre
 
 ## Dataset
 
-Descibe where you got the Data from. Did you get it from different sources? Provide Download links only if publicly available. 
+The earth quake data was downloaded from geonet.org.nz/ and spans the timeframe from 01-01-2000 to 16-06-2024.
+A dataset with New Zealand's towns was downloaded from https://simplemaps.com/data/nz-cities
 
 ## Attribute Information
 
-The dataset contains the following attributes:
+The dataset 'df_quake_cty' used for most of the EDA is the product of merging the two above datasets after various pre-processing steps
+from the above. It contains the following attributes:
 
-1. ...
-2. ...
-3. ...
-4. ...
+1. Time
+2. Unixtime
+3. Longitude
+4. Latitude
+5. Magnitude
+6. Magnitude Type
+7. Depth
+8. NZ_MMI
+9. Adjusted Distance
+10. Nearest City
+11. Population
+12. Cluster
 
-The dataset contains a total of xxx examples, with xxx positive examples and xxx negative examples.
+The dataset 'df_major_quakes' used for the machine learning prediction and parts of the EDA is a variant of 'df_quake_cty' which is reduced to all identified earthquake clusters that at least contain one major earthquake equal to over the magnitude 5. 
 
 
 ## EDA/Cleaning
@@ -79,11 +89,22 @@ The dataset contains a total of xxx examples, with xxx positive examples and xxx
 
 ## Model Choices
 
-What models did you test against each other and why? How did you optimize them? 
+For the identification of the 10 most earthquake prone towns / cities in New Zealand and prediction of which town is most likely to experience a magnitude =>5 this project uses an isolation forest model.
+
+The decision to chose an isolation forest  was driven by the following factors:
+- Anomaly detection capabilities: Earthquakes, especially significant ones, are relatively rare events compared to the background seismic activity. Isolation Forest is inherently designed to detect outliers in data. The isolatin forst algorithm works by isolating observations by randomly selecting a feature and then randomly selecting a split value between the maximum and minimum values of the selected feature. The logic is that outliers are easier to isolate because they reside in sparse regions of the data space
+- Handling high-dimensional data: Seismic data can be high-dimensional, encompassing features like latitude, longitude, depth, magnitude, time, and other geological parameters.  Isolation Forest can efficiently handle high-dimensional data without extensive preprocessing, making it suitable for complex datasets like those in earthquake studies.
+- Scalibilty: Our dataset contains 519464 data points and the isolation forests is known for its scalability and can handle large datasets efficiently
+- Unsupervised learning: Labeling earthquakes as normal or abnormal events can be challenging due to the lack of clear distinctions in many cases. As an unsupervised learning algorithm, Isolation Forest does not require labeled data for training, making it ideal for scenarios where labeled data is scarce or ambiguous.
+- Robustness to noise: Seismic data can be noisy, with numerous minor events that may not be relevant to the study of significant earthquakes. Isolation Forest is robust to noise, as it focuses on isolating anomalies rather than fitting to the bulk of the data, thereby reducing the impact of noisy data points.
 
 ## Results
 
-What metric did you use and why? How did you final model perform? 
+For my prediction I use the following metrics:
+- 'Population Density' for the purpose of risk assessment and resource allocation
+- 'Count of Major Events' for the analysis of earthquake frequencies and trebd identification
+- 'Average Magnitude' to assess the severity and to characterize the events
+
 
 ## Prediction Function
 
