@@ -105,6 +105,11 @@ For my prediction I use the following metrics:
 - 'Count of Major Events' for the analysis of earthquake frequencies and trebd identification
 - 'Average Magnitude' to assess the severity and to characterize the events
 
+The results show a dissonace between the ranking of the 10 most earthquake pronbe towns / cities and the prediction of when these population centers will be affected by a major earthquake:
+
+  Isolation Forest Output (Count of Major Events): This ranking is based on the count of major anomalies detected in the dataset. Cities   with a higher number of detected anomalies are considered more prone to earthquakes based on historical data. Note: Isolation Forest     Ranking evaluation ranks cities based on the frequency of major anomalies detected.
+
+  Years Until Next Major Earthquake: This prediction is based on the average interval between major earthquakes for each city and the      date of the last detected major earthquake. A city might have fewer major events historically but a shorter average interval between     those events, leading to a prediction of a sooner next major earthquake. Note: "Years Until Next Major Earthquake" evaluation predicts   when the next major earthquake is likely to occur based on the historical intervals between ma
 
 ## Prediction Function
 
