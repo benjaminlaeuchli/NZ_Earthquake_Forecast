@@ -59,7 +59,7 @@ Once the setup is complete, you can use the provided functions, such as `ann_pre
 
 ## Dataset
 
-The earth quake data was downloaded from geonet.org.nz/ and spans the timeframe from 01-01-2000 to 16-06-2024.
+The earth quake data was downloaded from https://geonet.org.nz/ and spans the timeframe from 01-01-2000 to 16-06-2024.
 A dataset with New Zealand's towns was downloaded from https://simplemaps.com/data/nz-cities
 
 ## Attribute Information
