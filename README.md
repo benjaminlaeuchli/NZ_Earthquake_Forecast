@@ -83,9 +83,43 @@ from the above. It contains the following attributes:
 The dataset 'df_major_quakes' used for the machine learning prediction and parts of the EDA is a variant of 'df_quake_cty' which is reduced to all identified earthquake clusters that at least contain one major earthquake equal to over the magnitude 5. 
 
 
-## EDA/Cleaning
+## Cleaning/EDA
 
-...
+Data Loading:
+
+Loaded the earthquake dataset from [https://www.geonet.org.nz/].
+Previewed the dataset to understand its structure and contents using head() and dtypes() functions. The relevant population centers used for this approach, including their coordinates, and population density were downloaded from [https://simplemaps.com/data/nz-cities] and merged to the earthquake dataset. 
+
+
+Data Summary:
+
+Generated summary statistics using describe() to understand the central tendency, dispersion, and shape of the dataset’s distribution.
+Checked for missing values and data types for each column.
+
+Data Visualization:
+Plotted histograms plots to visualize the distribution of numerical features such as the total number of earthquakes (grouped according to NZ MMI), magnitude variability through time with regards to NZ MMI grouping, quake magnitude vs. depth.
+Furthermore, an interactive scatter plots was created to visualize paterns of earthquake clusters through time which supported by a innteractive histogram to depict the temporal distribution of the identifed quake clusters.
+
+Data Cleaning
+Handling Missing Values: 
+
+Wasn't needed as NaN only found in irrelevant columns. These were simply removed from the dataset ciompletely
+
+Data Transformation:
+Converted date and time columns to datetime format for better time series analysis.
+
+Outlier Detection and Handling:
+Outliers (only relevant for magnitude vs. depth) were not removed or dealt with as they were considered (domain knowledge) to harbor potential insights into eart6hquake occurance patterns.
+
+Feature Engineering:
+Establishment of earthquake clusters via ST-DBSCAN as the earthquake dataset consisting of individual meassurements with no earthquake event allocation. 
+To efficiently find the nearest city / town we need to not only consider lateral locations (longitude / longitudes) but also depth
+a cKD tree was created.
+
+Data Filtering:
+
+Filtered for all datapoints with magnitudes => 5 to meat the requirement of finding impactfulevents with potentially harmful consequences for human life and infrastructure.
+
 
 ## Model Choices
 
@@ -136,4 +170,8 @@ Geographical Distribution Analysis
 Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
 
 ## Final Remarks
+
+Accurate predictions save lives, protect vital infrastructure, and are essential to mitigate the affects of disruptive major earthquakes.
+Historic data alone clearly not sufficient for predictive earthquake modeling. To further optimize the prediction accuracy of this model, we need information regarding pressure build ups along the full length of the subduction zone, include documented patterns of shifts in seismic wave speed as well as observed patterns of shifting groundwater tables and flow direction.
+
 
