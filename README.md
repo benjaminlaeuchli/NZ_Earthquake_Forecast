@@ -1,4 +1,4 @@
-![Cover Photo](https://thumbnailer.digitalnz.org/?resize=664%3E&src=https%3A%2F%2Fndhadeliver.natlib.govt.nz%2FNLNZStreamGate%2Fget%3Fdps_pid%3DIE26771482)
+![Cover Photo](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.seafriends.org.nz%2Fenviro%2Fsoil%2Fsoilnz.htm&psig=AOvVaw0W9f3Q8bQNrbKQlrz1IA90&ust=1718882043396000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDdlurE54YDFQAAAAAdAAAAABAJ)
 
 # New Zealand's ten most earthquake prone cities and their earthquake event forecast.  
 
