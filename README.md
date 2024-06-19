@@ -1,4 +1,4 @@
-![Cover Photo](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.seafriends.org.nz%2Fenviro%2Fsoil%2Fsoilnz.htm&psig=AOvVaw0W9f3Q8bQNrbKQlrz1IA90&ust=1718882043396000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDdlurE54YDFQAAAAAdAAAAABAJ)
+![Cover Photo](https://www.seafriends.org.nz/enviro/soil/mapsnz03.gif)
 
 # New Zealand's ten most earthquake prone cities and their earthquake event forecast.  
 
