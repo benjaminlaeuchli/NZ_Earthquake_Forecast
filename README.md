@@ -1,4 +1,4 @@
-![pulsar_star_wp](https://gssc.esa.int/navipedia/images/a/a9/Example.jpg)
+![Cover Photo](https://thumbnailer.digitalnz.org/?resize=664%3E&src=https%3A%2F%2Fndhadeliver.natlib.govt.nz%2FNLNZStreamGate%2Fget%3Fdps_pid%3DIE26771482)
 
 # New Zealand's ten most earthquake prone cities and their earthquake event forecast.  
 
