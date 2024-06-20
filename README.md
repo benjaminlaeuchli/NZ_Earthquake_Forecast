@@ -86,13 +86,11 @@ The dataset 'df_major_quakes' used for the machine learning prediction and parts
 ## Cleaning/EDA
 
 Data Loading:
-
 Loaded the earthquake dataset from [https://www.geonet.org.nz/].
 Previewed the dataset to understand its structure and contents using head() and dtypes() functions. The relevant population centers used for this approach, including their coordinates, and population density were downloaded from [https://simplemaps.com/data/nz-cities] and merged to the earthquake dataset. 
 
 
 Data Summary:
-
 Generated summary statistics using describe() to understand the central tendency, dispersion, and shape of the dataset’s distribution.
 Checked for missing values and data types for each column.
 
@@ -109,15 +107,13 @@ Data Transformation:
 Converted date and time columns to datetime format for better time series analysis.
 
 Outlier Detection and Handling:
-Outliers (only relevant for magnitude vs. depth) were not removed or dealt with as they were considered (domain knowledge) to harbor potential insights into eart6hquake occurance patterns.
+Outliers (only relevant for magnitude vs. depth) were not removed or dealt with as they were considered (domain knowledge) to harbor potential insights into earthquake occurance patterns.
 
 Feature Engineering:
 Establishment of earthquake clusters via ST-DBSCAN as the earthquake dataset consisting of individual meassurements with no earthquake event allocation. 
-To efficiently find the nearest city / town we need to not only consider lateral locations (longitude / longitudes) but also depth
-a cKD tree was created.
+To efficiently find the nearest city / town we need to not only consider lateral locations (longitude / longitudes) but also depth a cKD tree was created.
 
 Data Filtering:
-
 Filtered for all datapoints with magnitudes => 5 to meat the requirement of finding impactfulevents with potentially harmful consequences for human life and infrastructure.
 
 
