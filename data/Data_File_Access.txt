@@ -1,0 +1,4 @@
+To data used for this project is available for download at https://wfs.geonet.org.nz/.
+Copy the following url and paste it into the address bar of your browser: http://wfs.geonet.org.nz/geonet/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonet:quake_search_v1&outputFormat=csv&cql_filter=origintime>='2013-05-01'+AND+origintime<'2013-08-01' 
+Simply adjust the origin times to the desired start and end dates . For this project the date range was set to 2020-01-01 to 2024-06-16. 
+After entering the url, the download of the data file (.csv) will immediately commence
