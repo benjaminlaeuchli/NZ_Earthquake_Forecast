@@ -1,4 +1,17 @@
-To data used for this project is available for download at https://wfs.geonet.org.nz/.
+
+#######################################################################################
+
+The raw data used for this project is available for download at https://wfs.geonet.org.nz/.
 Copy the following url and paste it into the address bar of your browser: http://wfs.geonet.org.nz/geonet/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonet:quake_search_v1&outputFormat=csv&cql_filter=origintime>='2013-05-01'+AND+origintime<'2013-08-01' 
 Simply adjust the origin times to the desired start and end dates . For this project the date range was set to 2020-01-01 to 2024-06-16. 
-After entering the url, the download of the data file (.csv) will immediately commence
+After entering the url, the download of the data file (.csv) will immediately commence.
+
+#######################################################################################
+
+The datafile with New Zealand's cities and their coordinates as well as population sizes were downloaded from https://simplemaps.com/data/nz-cities. The .csv file is available in the repository - named "df_cities.csv".
+
+#######################################################################################
+
+The merged data including relevant columns from both raw data files as well as additional columns for 'adjusted distance' between an individual earthquake to the nearest town and allocation to event clusters is available in the file "df_quake_cty.csv".
+
+"df_major_quakes.csv" is a variant of "df_quake_cty.csv" in which the earthquake date was filtered for quakes with a magnitude of => 5 or higher.
