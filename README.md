@@ -46,20 +46,26 @@ cd your-repository
 ```
 3. Install the required dependencies:
 ```
-pip install -r requirements.txt
+Enter the below pip install commands in your terminal or command line to install the libraries used in the provided jupyter notebooks:
+
+pip install scipy
+pip install hdbscan
+pip install scikit-learn
+pip install matplotlib
+pip install cartopy
+pip install ipywidgets
+
 ```
-4. Download the modified dataset and place it in the project directory. The original dataset can be acquired from the link [xxx](link here).
+4. Download the provided datasets and place them in the project directory. The original dataset can be acquired from the link geonet.org.nz/ (see below for details).
 
 5. ...
 
 **Note:** If any of the above files are missing, the corresponding functionality may not work as expected.
 
-Once the setup is complete, you can use the provided functions, such as `ann_prediction(csv_file)`, to make predictions on new data using the pre-trained models.
-
 
 ## Dataset
 
-The earth quake data was downloaded from https://geonet.org.nz/ and spans the timeframe from 01-01-2000 to 16-06-2024.
+The earthquake data was downloaded from https://geonet.org.nz/ and spans the timeframe from 01-01-2000 to 16-06-2024.
 A dataset with New Zealand's towns was downloaded from https://simplemaps.com/data/nz-cities
 
 ## Attribute Information
@@ -79,6 +85,8 @@ from the above. It contains the following attributes:
 10. Nearest City
 11. Population
 12. Cluster
+
+Note: NZ_MMI stands for "New Zealand Mercalli Modified Intensity" scale
 
 The dataset 'df_major_quakes' used for the machine learning prediction and parts of the EDA is a variant of 'df_quake_cty' which is reduced to all identified earthquake clusters that at least contain one major earthquake equal to over the magnitude 5. 
 
