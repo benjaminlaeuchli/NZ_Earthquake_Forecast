@@ -38,7 +38,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 ```
-[git clone https://github.com/daistmarco/....git](https://github.com/benjaminlaeuchli/NZ_Earthquake_Forecast.git)
+https://github.com/benjaminlaeuchli/NZ_Earthquake_Forecast.git
 ```
 2. Navigate to the project directory:
 ```
@@ -154,24 +154,24 @@ The results show a dissonace between the ranking of the 10 most earthquake pronb
 Scripts Run During the Prediction Process
 Filtering and Sorting Earthquake Events:
 
-Extract major earthquake events based on magnitude and anomaly.
+- Extract major earthquake events based on magnitude and anomaly.
 Sort events by time.
-Calculating Intervals:
 
-Calculate time intervals between successive major earthquakes for each city.
-Computing Average Intervals:
+- Calculate time intervals between successive major earthquakes for each city.
 
-Compute average time intervals between major earthquakes for each city.
-Predicting Future Earthquakes:
+- Compute average time intervals between major earthquakes for each city.
 
-Identify the last major earthquake date for each city.
-Merge average intervals with last earthquake dates.
-Predict the next major earthquake date and calculate the number of years until then.
+- Identify the last major earthquake date for each city.
+
+- Merge average intervals with last earthquake dates.
+
+- Predict the next major earthquake date and calculate the number of years until then.
+
 Filtering Results:
 
-Filter predictions to show only the top 10 cities.
-Geographical Distribution Analysis
-Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
+- Filter predictions to show only the top 10 cities.
+- Geographical Distribution Analysis
+- Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
 
 ## Final Remarks
 
