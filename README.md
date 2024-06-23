@@ -28,7 +28,7 @@ This notebook focuses on Exploratory Data Analysis (EDA) and visualisation of ke
 
 
 4. **Quake_Predict.ipynb**:
-This notebook focuses on establishing a top 10 list of cities most likely to experience a major earthquake event uisng an isolation forest prediction model. Based on the outcome of the forecast year to next likely earth quake event are calculated. These results are set into context of the geographical distribution of populations centers, major earthquakes, and average population desnity on the North- and South Island.
+This notebook focuses on establishing a top 10 list of cities most likely to experience a major earthquake event uisng an isolation forest prediction model. Based on the outcome of the forecast year to next likely earth quake event are calculated. These results are set into context of the geographical distribution of populations centers, major earthquakes, and average population density on the North- and South Islands.
 
 ...
 
@@ -126,7 +126,7 @@ The decision to chose an isolation forest  was driven by the following factors:
 - Handling high-dimensional data: Seismic data can be high-dimensional, encompassing features like latitude, longitude, depth, magnitude, time, and other geological parameters.  Isolation Forest can efficiently handle high-dimensional data without extensive preprocessing, making it suitable for complex datasets like those in earthquake studies.
 - Scalibilty: Our dataset contains 519464 data points and the isolation forests is known for its scalability and can handle large datasets efficiently
 - Unsupervised learning: Labeling earthquakes as normal or abnormal events can be challenging due to the lack of clear distinctions in many cases. As an unsupervised learning algorithm, Isolation Forest does not require labeled data for training, making it ideal for scenarios where labeled data is scarce or ambiguous.
-- Robustness to noise: Seismic data can be noisy, with numerous minor events that may not be relevant to the study of significant earthquakes. Isolation Forest is robust to noise, as it focuses on isolating anomalies rather than fitting to the bulk of the data, thereby reducing the impact of noisy data points.
+- Robustness to noise: Seismic data can be noisy, with numerous minor events that may not be relevant to the study of significant earthquakes. The Isolation Forest model is robust to noise, as it focuses on isolating anomalies rather than fitting to the bulk of the data, thereby reducing the impact of noisy data points.
 
 ## Results
 
