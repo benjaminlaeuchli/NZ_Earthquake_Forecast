@@ -38,7 +38,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/daistmarco/....git
+[git clone https://github.com/daistmarco/....git](https://github.com/benjaminlaeuchli/NZ_Earthquake_Forecast.git)
 ```
 2. Navigate to the project directory:
 ```
