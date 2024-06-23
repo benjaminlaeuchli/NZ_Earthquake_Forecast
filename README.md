@@ -40,9 +40,9 @@ To set up the project locally, follow these steps:
 ```
 https://github.com/benjaminlaeuchli/NZ_Earthquake_Forecast.git
 ```
-2. Navigate to the project directory:
+2. Navigate to the project directory (replace NZ_Earthquake_Forecast with the name of your local directory if you chose a different one):
 ```
-cd your-repository
+cd NZ_Earthquake_Forecast
 ```
 3. Install the required dependencies:
 ```
