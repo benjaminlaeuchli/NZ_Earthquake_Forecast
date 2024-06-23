@@ -114,7 +114,7 @@ Establishment of earthquake clusters via ST-DBSCAN as the earthquake dataset con
 To efficiently find the nearest city / town we need to not only consider lateral locations (longitude / longitudes) but also depth a cKD tree was created.
 
 Data Filtering:
-Filtered for all datapoints with magnitudes => 5 to meat the requirement of finding impactfulevents with potentially harmful consequences for human life and infrastructure.
+Filtered for all datapoints with magnitudes => 5 to meet the requirement of finding impactfulevents with potentially harmful consequences for human life and infrastructure.
 
 
 ## Model Choices
