@@ -1,4 +1,4 @@
-![Cover Photo](https://af8.org.nz/media/zegl3p05/3-fig3.jpg?width=1440&rnd=133029826363870000)
+![Earthquake Cluster Animation](images/earthquake_clusters.gif)
 
 # New Zealand's ten most earthquake prone cities and their earthquake event forecast.  
 
