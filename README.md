@@ -1,7 +1,9 @@
 # New Zealand's ten most earthquake prone cities and their earthquake event forecast. 
 
+## Interactive scatter plot
 ![Earthquake Cluster Animation](images/earthquake_clusters.gif)
  
+
 ### Project Overview
 Objective: This project aims to analyse a 24 year spanning historical earthquake dataset (2020-01-01 to 2024-06-16) obtained from geonet.org.nz/ and create a model to identify the 10 most earthquake towns / cities in New Zealand and predict the timing of the next earthquake eventy for these population centers. 
 
@@ -104,7 +106,7 @@ Checked for missing values and data types for each column.
 
 Data Visualization:
 Plotted histograms plots to visualize the distribution of numerical features such as the total number of earthquakes (grouped according to NZ MMI), magnitude variability through time with regards to NZ MMI grouping, quake magnitude vs. depth.
-Furthermore, an interactive scatter plots was created to visualize patterns of earthquake clusters through time which supported by a interactive histogram to depict the temporal distribution of the identifed quake clusters.
+Furthermore, an interactive scatter plots (preseneted at the top of the page) was created to visualize patterns of earthquake clusters through time which supported by a interactive histogram to depict the temporal distribution of the identifed quake clusters.
 
 Data Cleaning
 Handling Missing Values: 
