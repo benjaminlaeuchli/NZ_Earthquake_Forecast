@@ -148,7 +148,7 @@ For my prediction I use the following metrics:
 - 'Count of Major Events' for the analysis of earthquake frequencies and trebd identification
 - 'Average Magnitude' to assess the severity and to characterize the events
 
-The results show a dissonace between the ranking of the 10 most earthquake pronbe towns / cities and the prediction of when these population centers will be affected by a major earthquake:
+The results show a dissonace between the ranking of the 10 most earthquake prone towns / cities and the prediction of when these population centers will be affected by a major earthquake:
 
   Isolation Forest Output (Count of Major Events): This ranking is based on the count of major anomalies detected in the dataset. Cities   with a higher number of detected anomalies are considered more prone to earthquakes based on historical data. Note: Isolation Forest     Ranking evaluation ranks cities based on the frequency of major anomalies detected.
 
