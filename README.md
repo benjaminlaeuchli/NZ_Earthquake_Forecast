@@ -1,4 +1,6 @@
-![Earthquake Cluster Animation](images/earthquake_clusters.gif)
+## Earthquake Cluster Animation
+
+[![Earthquake Cluster Animation Thumbnail](images/earthquake_clusters_thumbnail.gif)](images/earthquake_clusters.gif)
 
 # New Zealand's ten most earthquake prone cities and their earthquake event forecast.  
 
