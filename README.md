@@ -1,9 +1,7 @@
-## Earthquake Cluster Animation
+# New Zealand's ten most earthquake prone cities and their earthquake event forecast. 
 
 ![Earthquake Cluster Animation](images/earthquake_clusters.gif)
-
-# New Zealand's ten most earthquake prone cities and their earthquake event forecast.  
-
+ 
 ### Project Overview
 Objective: This project aims to analyse a 24 year spanning historical earthquake dataset (2020-01-01 to 2024-06-16) obtained from geonet.org.nz/ and create a model to identify the 10 most earthquake towns / cities in New Zealand and predict the timing of the next earthquake eventy for these population centers. 
 
