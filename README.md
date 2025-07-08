@@ -179,7 +179,7 @@ Filtering Results:
 
 - Geographical Distribution Analysis
 
-![Earthquakes by Island](NZ_Earthquake_Forecast/images/earthquakes_by_island_resized.png)
+![Earthquakes by Island](images/earthquakes_by_island_resized.png)
 
 - Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
 
