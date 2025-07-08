@@ -174,6 +174,9 @@ Sort events by time.
 Filtering Results:
 
 - Filter predictions to show only the top 10 cities.
+
+[![Years to Major Quake](images/years%20to%20major%20quake%20for%20top10%20most%20earthquake%20prone%20cities%20in%20NZ.png)](images/years%20to%20major%20quake%20for%20top10%20most%20earthquake%20prone%20cities%20in%20NZ.png)
+
 - Geographical Distribution Analysis
 - Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
 
