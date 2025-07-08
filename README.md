@@ -175,7 +175,7 @@ Filtering Results:
 
 - Filter predictions to show only the top 10 cities.
 
-![Years to Major Quake](NZ_Earthquake_Forecast/images/years_to_major_quake_resized.png)
+![Years to Major Quake](images/years_to_major_quake_resized.png)
 
 - Geographical Distribution Analysis
 
