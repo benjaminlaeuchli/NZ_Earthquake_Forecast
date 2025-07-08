@@ -107,7 +107,7 @@ Checked for missing values and data types for each column.
 Data Visualization:
 Plotted histograms plots to visualize the distribution of numerical features such as the total number of earthquakes (grouped according to NZ MMI), magnitude variability through time with regards to NZ MMI grouping, quake magnitude vs. depth.
 
-![Interactive Earthquake Cluster Plot](images/interactive_plot.gif)
+[![Earthquake Frequency Animation](images/Createtempo-spatialgraphwithearthquakefrequencyperclusterplottedagainstmeasuredmagnitudeswithdropdownmenu-ezgif.com-optimize.gif)](images/Createtempo-spatialgraphwithearthquakefrequencyperclusterplottedagainstmeasuredmagnitudeswithdropdownmenu-ezgif.com-optimize.gif)
 
 Furthermore, an interactive scatter plots (preseneted at the top of the page) was created to visualize patterns of earthquake clusters through time which supported by a interactive histogram to depict the temporal distribution of the identifed quake clusters.
 
