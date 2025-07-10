@@ -144,6 +144,7 @@ The decision to chose an isolation forest  was driven by the following factors:
 
 For my prediction I use the following metrics:
 - 'Population Density' for the purpose of risk assessment and resource allocation
+![Top 10 Earthquake Predictions](images/top_10_earthquake_predictions.png)
 - 'Count of Major Events' for the analysis of earthquake frequencies and trend identification
 - 'Average Magnitude' to assess the severity and to characterize the events
 
