@@ -176,6 +176,7 @@ Filtering Results:
 - Filter predictions to show only the top 10 cities.
 ![Top 10 Earthquake Predictions](images/top_10_earthquake_predictions.png)
 - Geographical Distribution Analysis
+![Major Earthquakes by Island](images/MajorQuakes_NorthVsSouth.png)
 
 - Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
 
