@@ -144,7 +144,6 @@ The decision to chose an isolation forest  was driven by the following factors:
 
 For my prediction I use the following metrics:
 - 'Population Density' for the purpose of risk assessment and resource allocation
-![Top 10 Earthquake Predictions](images/top_10_earthquake_predictions.png)
 - 'Count of Major Events' for the analysis of earthquake frequencies and trend identification
 - 'Average Magnitude' to assess the severity and to characterize the events
 
@@ -175,7 +174,7 @@ Sort events by time.
 Filtering Results:
 
 - Filter predictions to show only the top 10 cities.
-
+![Top 10 Earthquake Predictions](images/top_10_earthquake_predictions.png)
 - Geographical Distribution Analysis
 
 - Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
