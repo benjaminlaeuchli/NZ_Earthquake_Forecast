@@ -144,7 +144,7 @@ The decision to chose an isolation forest  was driven by the following factors:
 
 For my prediction I use the following metrics:
 - 'Population Density' for the purpose of risk assessment and resource allocation
-- 'Count of Major Events' for the analysis of earthquake frequencies and trebd identification
+- 'Count of Major Events' for the analysis of earthquake frequencies and trend identification
 - 'Average Magnitude' to assess the severity and to characterize the events
 
 The results show a dissonace between the ranking of the 10 most earthquake prone towns / cities and the prediction of when these population centers will be affected by a major earthquake:
