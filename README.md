@@ -179,6 +179,7 @@ Filtering Results:
 ![Major Earthquakes by Island](images/MajorQuakes_NorthVsSouth.png)
 
 - Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
+![Geographical Distribution of Major Quakes vs Town Population](images/GeogrDistribution_Towns_Major_Quakes_Population.png)
 
 ## Final Remarks
 
