@@ -193,11 +193,9 @@ This unsupervised model identifies cities that exhibit abnormal seismic characte
 ### Complementary Strengths
 By integrating these approaches:
 
-Classification models provide targeted predictions for known high-risk areas, leveraging established patterns in the data.
-
-Anomaly detection broadens the risk assessment by flagging emerging or subtle patterns of vulnerability in areas not yet recognized by traditional classification models.
-
-Together, this dual methodology yields a more comprehensive earthquake risk assessment, enhancing predictive accuracy while improving sensitivity to future or unexpected seismic hazards.
+- Classification models provide targeted predictions for known high-risk areas, leveraging established patterns in the data.
+- Anomaly detection broadens the risk assessment by flagging emerging or subtle patterns of vulnerability in areas not yet recognized by traditional classification models.
+- Together, this dual methodology yields a more comprehensive earthquake risk assessment, enhancing predictive accuracy while improving sensitivity to future or unexpected seismic hazards.
 
 ## Final Remarks
 
