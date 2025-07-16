@@ -171,16 +171,16 @@ Sort events by time.
 
 - Predict the next major earthquake date and calculate the number of years until then.
 
-Expanded Analysis: Classification Models vs. Anomaly Detection
+## Expanded Analysis: Classification Models vs. Anomaly Detection
 The project employed two complementary machine learning strategies:
 
-Classification Models (Logistic Regression, Random Forest)
+### Classification Models (Logistic Regression, Random Forest)
 These supervised models predict whether a specific city will experience a high-magnitude earthquake. They perform well where there is sufficient historical data with labeled outcomes, offering clear, interpretable predictions based on known features (e.g., average magnitude, depth, frequency of past events).
 
-Anomaly Detection (Isolation Forest)
+### Anomaly Detection (Isolation Forest)
 This unsupervised model identifies cities that exhibit abnormal seismic characteristics relative to others, even if those locations have not previously experienced the strongest quakes. It is particularly useful for highlighting locations that may develop seismic risks not captured by historical patterns alone.
 
-Complementary Strengths
+### Complementary Strengths
 By integrating these approaches:
 
 Classification models provide targeted predictions for known high-risk areas, leveraging established patterns in the data.
@@ -189,8 +189,7 @@ Anomaly detection broadens the risk assessment by flagging emerging or subtle pa
 
 Together, this dual methodology yields a more comprehensive earthquake risk assessment, enhancing predictive accuracy while improving sensitivity to future or unexpected seismic hazards.
 
-
-Filtering Results:
+## Filtering Results:
 
 - Filter predictions to show only the top 10 cities.
 ![Top 10 Earthquake Predictions](images/top_10_earthquake_predictions.png)
