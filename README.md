@@ -197,6 +197,8 @@ By integrating these approaches:
 - Anomaly detection broadens the risk assessment by flagging emerging or subtle patterns of vulnerability in areas not yet recognized by traditional classification models.
 - Together, this dual methodology yields a more comprehensive earthquake risk assessment, enhancing predictive accuracy while improving sensitivity to future or unexpected seismic hazards.
 
+![Refined Top 10 Earthquake-Prone Cities in NZ](images/Updated_Top_10_Earthquake_Prone_Cities_NZ.png)
+
 ## Final Remarks
 
 Accurate predictions save lives, protect vital infrastructure, and are essential to mitigate the affects of disruptive major earthquakes.
