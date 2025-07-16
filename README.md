@@ -171,6 +171,16 @@ Sort events by time.
 
 - Predict the next major earthquake date and calculate the number of years until then.
 
+## Filtering Results:
+
+- Filter predictions to show only the top 10 cities.
+![Top 10 Earthquake Predictions](images/top_10_earthquake_predictions.png)
+- Geographical Distribution Analysis
+![Major Earthquakes by Island](images/MajorQuakes_NorthVsSouth.png)
+
+- Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
+![Geographical Distribution of Major Quakes vs Town Population](images/GeogrDistribution_Towns_Major_Quakes_Population.png)
+
 ## Expanded Analysis: Classification Models vs. Anomaly Detection
 The project employed two complementary machine learning strategies:
 
@@ -188,16 +198,6 @@ Classification models provide targeted predictions for known high-risk areas, le
 Anomaly detection broadens the risk assessment by flagging emerging or subtle patterns of vulnerability in areas not yet recognized by traditional classification models.
 
 Together, this dual methodology yields a more comprehensive earthquake risk assessment, enhancing predictive accuracy while improving sensitivity to future or unexpected seismic hazards.
-
-## Filtering Results:
-
-- Filter predictions to show only the top 10 cities.
-![Top 10 Earthquake Predictions](images/top_10_earthquake_predictions.png)
-- Geographical Distribution Analysis
-![Major Earthquakes by Island](images/MajorQuakes_NorthVsSouth.png)
-
-- Additionally, the script classifies towns as being on the North or South Island, counts the number of towns and major earthquakes on each island, and calculates their proportions
-![Geographical Distribution of Major Quakes vs Town Population](images/GeogrDistribution_Towns_Major_Quakes_Population.png)
 
 ## Final Remarks
 
